@@ -4,7 +4,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const path = require('path');
 
-//Serve public directory
+//Serve public directory test123
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
